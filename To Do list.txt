@@ -1,0 +1,5 @@
+1. Create an amazing gallery either via slideshow or css grid
+2. use the red, blue, white and black colors to produce awesome cards
+3.add some content, particulary the history
+4. add footer section, containing my details, and a contact me section
+5. create a nav bar with a search bar, at the top
