@@ -1,6 +1,72 @@
 * {
     box-sizing: border-box;
 }
+nav {
+    background-color: #42cbf5;
+    padding: 20px 10px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+nav a:hover {
+    background-color:#fa0b0bf5;
+    color: black;
+}
+nav a:active{
+    background-color: #fa0b0bf5;
+    color: white;
+}
+.header-right {
+    grid-column: 4 / 4; 
+}
+nav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .slideshow_container {
     max-width: 1000px;
     position: relative;
