@@ -4,6 +4,9 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    
+}
 /*header and nav styling*/
 nav {
     background-color: #42cbf5;
@@ -73,7 +76,16 @@ aside {
  article {
      margin: 10px 10px 10px 10px;
  }
-
+ /* footer styling */
+ footer {
+     background-color: rgba(128, 128, 128, 0.938);
+     color:black;
+     padding: 6px 12px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ 
 
 
 

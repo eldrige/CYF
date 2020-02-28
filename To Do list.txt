@@ -4,3 +4,4 @@
 4. add footer section, containing my details, and a contact me section
 5. create a nav bar with a search bar, at the top
 6. scroll behaviour smooth
+7. add icons and change the fonts to google fonts
