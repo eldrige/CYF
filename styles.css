@@ -31,7 +31,6 @@ nav a:hover {
 
 }
 nav a:active{
-
     color: white;
 }
 .header-right {
@@ -43,6 +42,9 @@ nav input[type=text] {
     margin-top: 6px;
     margin-right: 16px;
     font-size: 17px;
+}
+nav a:first-child{
+    margin-left: 0;
 }
 /*delimiting content*/
 .row {
@@ -76,14 +78,30 @@ aside {
  article {
      margin: 10px 10px 10px 10px;
  }
+ /* typography */
+  p{
+      font-size: 15px;
+      letter-spacing: 0.05rem;
+      line-height: 1.75;
+  }
+  h1{
+      margin-bottom: 7px;
+      font-size: 25px;
+  }
+
+
+
+
+ /* end typogrpahy */
  /* footer styling */
  footer {
-     background-color: rgba(128, 128, 128, 0.938);
+     background-color: rgba(0, 0, 0, 0.5);
      color:black;
-     padding: 6px 12px;
+     padding: 12px 12px;
      display: flex;
      justify-content: space-between;
  }
+ /* footer end */
  
  
 
